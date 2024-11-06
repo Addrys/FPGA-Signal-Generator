@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="cnt_display_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="cnt_display_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="9812842000fs"></ZoomStartTime>
+      <ZoomEndTime time="15872842001fs"></ZoomEndTime>
+      <Cursor1Time time="12812842000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="246"></NameColumnWidth>
+      <ValueColumnWidth column_width="138"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/cnt_display_tb/CNT1" type="other">
+      <obj_property name="ElementShortName">CNT1</obj_property>
+      <obj_property name="ObjectShortName">CNT1</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cnt_display_tb/DUT/DP" type="logic">
+      <obj_property name="ElementShortName">DP</obj_property>
+      <obj_property name="ObjectShortName">DP</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cnt_display_tb/DUT/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+      <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cnt_display_tb/DUT/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+      <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cnt_display_tb/DUT/DATO_BCD" type="array">
+      <obj_property name="ElementShortName">DATO_BCD[15:0]</obj_property>
+      <obj_property name="ObjectShortName">DATO_BCD[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cnt_display_tb/DUT/DATO_BCD_OK" type="logic">
+      <obj_property name="ElementShortName">DATO_BCD_OK</obj_property>
+      <obj_property name="ObjectShortName">DATO_BCD_OK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cnt_display_tb/DUT/DATO_BCD_OUT" type="array">
+      <obj_property name="ElementShortName">DATO_BCD_OUT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">DATO_BCD_OUT[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cnt_display_tb/DUT/DATO_BCD_FORMATEADO" type="array">
+      <obj_property name="ElementShortName">DATO_BCD_FORMATEADO[15:0]</obj_property>
+      <obj_property name="ObjectShortName">DATO_BCD_FORMATEADO[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cnt_display_tb/DUT/CONTADOR_CE" type="logic">
+      <obj_property name="ElementShortName">CONTADOR_CE</obj_property>
+      <obj_property name="ObjectShortName">CONTADOR_CE</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cnt_display_tb/DUT/MUX_OUT" type="array">
+      <obj_property name="ElementShortName">MUX_OUT[3:0]</obj_property>
+      <obj_property name="ObjectShortName">MUX_OUT[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cnt_display_tb/DUT/cuenta" type="array">
+      <obj_property name="ElementShortName">cuenta[9:0]</obj_property>
+      <obj_property name="ObjectShortName">cuenta[9:0]</obj_property>
+      <obj_property name="CustomSignalColor">#808080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cnt_display_tb/UD/SEG_AG" type="array">
+      <obj_property name="ElementShortName">SEG_AG[6:0]</obj_property>
+      <obj_property name="ObjectShortName">SEG_AG[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cnt_display_tb/UD/AND_30" type="array">
+      <obj_property name="ElementShortName">AND_30[3:0]</obj_property>
+      <obj_property name="ObjectShortName">AND_30[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/cnt_display_tb/UD/AND_30[3]" type="logic">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">[3]</obj_property>
+         <obj_property name="CustomSignalColor">#008080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cnt_display_tb/UD/AND_30[2]" type="logic">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">[2]</obj_property>
+         <obj_property name="CustomSignalColor">#008080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cnt_display_tb/UD/AND_30[1]" type="logic">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">[1]</obj_property>
+         <obj_property name="CustomSignalColor">#008080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cnt_display_tb/UD/AND_30[0]" type="logic">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+         <obj_property name="CustomSignalColor">#008080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cnt_display_tb/UD/AND_30[3]" type="logic">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">[3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cnt_display_tb/UD/AND_30[2]" type="logic">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">[2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cnt_display_tb/UD/AND_30[1]" type="logic">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">[1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cnt_display_tb/UD/AND_30[0]" type="logic">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/cnt_display_tb/UD/Data" type="other">
+      <obj_property name="ElementShortName">Data</obj_property>
+      <obj_property name="ObjectShortName">Data</obj_property>
+      <obj_property name="CustomSignalColor">#808080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cnt_display_tb/UD/Displays" type="array">
+      <obj_property name="ElementShortName">Displays[4:1]</obj_property>
+      <obj_property name="ObjectShortName">Displays[4:1]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+</wave_config>

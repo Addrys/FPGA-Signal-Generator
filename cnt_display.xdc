@@ -1,0 +1,76 @@
+# clock 
+set_property PACKAGE_PIN W5 [get_ports {CLK}]
+	set_property IOSTANDARD LVCMOS33 [get_ports {CLK}]
+
+#RST
+set_property PACKAGE_PIN T18 [get_ports {RST}]
+	set_property IOSTANDARD LVCMOS33 [get_ports {RST}]
+
+#DATO_BCD_OK
+set_property PACKAGE_PIN T17 [get_ports {DATO_BCD_OK}]
+	set_property IOSTANDARD LVCMOS33 [get_ports {DATO_BCD_OK}]
+	
+# Switches 
+set_property PACKAGE_PIN V17 [get_ports {DATO_BCD[0]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {DATO_BCD[0]}]
+set_property PACKAGE_PIN V16 [get_ports {DATO_BCD[1]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {DATO_BCD[1]}]
+set_property PACKAGE_PIN W16 [get_ports {DATO_BCD[2]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {DATO_BCD[2]}]
+set_property PACKAGE_PIN W17 [get_ports {DATO_BCD[3]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {DATO_BCD[3]}]
+set_property PACKAGE_PIN W15 [get_ports {DATO_BCD[4]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {DATO_BCD[4]}]
+set_property PACKAGE_PIN V15 [get_ports {DATO_BCD[5]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {DATO_BCD[5]}]
+set_property PACKAGE_PIN W14 [get_ports {DATO_BCD[6]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {DATO_BCD[6]}]
+set_property PACKAGE_PIN W13 [get_ports {DATO_BCD[7]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {DATO_BCD[7]}]
+set_property PACKAGE_PIN V2 [get_ports {DATO_BCD[8]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {DATO_BCD[8]}]
+set_property PACKAGE_PIN T3 [get_ports {DATO_BCD[9]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {DATO_BCD[9]}]
+set_property PACKAGE_PIN T2 [get_ports {DATO_BCD[10]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {DATO_BCD[10]}]
+set_property PACKAGE_PIN R3 [get_ports {DATO_BCD[11]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {DATO_BCD[11]}]
+set_property PACKAGE_PIN W2 [get_ports {DATO_BCD[12]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {DATO_BCD[12]}]
+set_property PACKAGE_PIN U1 [get_ports {DATO_BCD[13]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {DATO_BCD[13]}]
+set_property PACKAGE_PIN T1 [get_ports {DATO_BCD[14]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {DATO_BCD[14]}]
+set_property PACKAGE_PIN R2 [get_ports {DATO_BCD[15]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {DATO_BCD[15]}]
+
+
+##7 segment display
+set_property PACKAGE_PIN W7 [get_ports {SEG_AG[0]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {SEG_AG[0]}]
+set_property PACKAGE_PIN W6 [get_ports {SEG_AG[1]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {SEG_AG[1]}]
+set_property PACKAGE_PIN U8 [get_ports {SEG_AG[2]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {SEG_AG[2]}]
+set_property PACKAGE_PIN V8 [get_ports {SEG_AG[3]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {SEG_AG[3]}]
+set_property PACKAGE_PIN U5 [get_ports {SEG_AG[4]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {SEG_AG[4]}]
+set_property PACKAGE_PIN V5 [get_ports {SEG_AG[5]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {SEG_AG[5]}]
+set_property PACKAGE_PIN U7 [get_ports {SEG_AG[6]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {SEG_AG[6]}]
+
+set_property PACKAGE_PIN U2 [get_ports {AND_30[0]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {AND_30[0]}]
+set_property PACKAGE_PIN U4 [get_ports {AND_30[1]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {AND_30[1]}]
+set_property PACKAGE_PIN V4 [get_ports {AND_30[2]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {AND_30[2]}]
+set_property PACKAGE_PIN W4 [get_ports {AND_30[3]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {AND_30[3]}]
+set_property PACKAGE_PIN V7 [get_ports {DP}]					
+        set_property IOSTANDARD LVCMOS33 [get_ports {DP}]	
+	
+        
+      
